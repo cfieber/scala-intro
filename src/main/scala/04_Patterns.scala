@@ -47,8 +47,8 @@ val genos = List(
     Geno("Jianping", "Roth", "Developer"))
 
 genos.foreach { _ match {
-    case g @ Geno(_, _, "Dev Manager") => println(g.firstName + " " + g.lastName + " is delegatin' .. like a boss!")
-    case g @ Geno(_, _, "Tech Lead") => println(g.firstName + " " + g.lastName + " likes the view from the top of the ivory tower")
+    case g @ Geno(_, _, "Dev Manager") if g.firstName != "Cliff" => println(g.firstName + " " + g.lastName + " is delegatin' .. like a boss!")
+    //case g @ Geno(_, _, "Tech Lead") => println(g.firstName + " " + g.lastName + " likes the view from the top of the ivory tower")
     case g @ Geno("Adam", _, _) => println("Adam " + g.lastName + " is too fit for his own good")
     case g @ Geno("Cam", "Fieber", _) => println(g.firstName + " " + g.lastName + " sure looks good dressed up as cupid")
     case g @ Geno(_, _, _) => println("Finally, its " + g.firstName + " a " + g.title + " who can get some work done!")

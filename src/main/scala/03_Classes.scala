@@ -3,7 +3,8 @@ import java.util.Date
 //////////////////////////////////////////////////////////////////////////////
 // Class
 //
-class ExampleClass(private val createdOn : Date, val immutableAttribute : String, var mutableAttribute : String) {
+class ExampleClass(private val createdOn : Date,
+                   val immutableAttribute : String, var mutableAttribute : String) {
 
     def this(mutable : String) = this(new Date(), "Default Value", mutable)
 
@@ -91,3 +92,9 @@ println(new Person("Cam", "Fieber"))
 println(Person("Adam", "Jordens"))
 
 println(Person("Cliff", "McCollum").lastName)
+
+case class CanIAddMethods(s: String) {
+    def getSomeS = s
+}
+
+println(new CanIAddMethods("Yep?").getSomeS)

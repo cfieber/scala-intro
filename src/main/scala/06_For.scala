@@ -45,7 +45,7 @@ val opt2 = None
 //println(opt2.get)
 println(opt2.getOrElse("Bacon!"))
 
-val suckItVowels = List(
+val suckItVowels : Option[String] = List(
     None,
     Some("b"),
     Some("c"),

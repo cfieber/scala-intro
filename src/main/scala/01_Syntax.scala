@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////
 // Variable declaration
 //
-val immutable = 1
+val immutable : Int = 1
 println(immutable)
 var mutable = 2
 println(mutable)
@@ -61,7 +61,12 @@ def someOtherFunction(a: Int, b: Int) : Long = {
     // return a + b
 }
 
-val someClosure = (a: Int, b: Int) => a + b
+var outsideValue = 10
+val someClosure = (a: Int, b: Int) => a + b + outsideValue
+
+println(someClosure(100, 100))
+outsideValue = 100
+println(someClosure(100, 100))
 
 // retrieving a reference to a function:
 val someOtherClosure = someFunction _
