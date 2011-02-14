@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<prj:projects xmlns:prj="http://genologics.com/ri/project">
+  <project uri="http://192.168.10.50:8080/api/v1/projects/LON1" limsid="LON1">
+    <name>Project 1</name>
+  </project>
+  <project uri="http://192.168.10.50:8080/api/v1/projects/VAN101" limsid="VAN101">
+    <name>Vancouver</name>
+  </project>
+  <project uri="http://192.168.10.50:8080/api/v1/projects/VIC102" limsid="VIC102">
+    <name>Victoria2</name>
+  </project>
+  <project uri="http://192.168.10.50:8080/api/v1/projects/API151" limsid="API151">
+    <name>API-PROJECT-NWm</name>
+  </project>
+  <project uri="http://192.168.10.50:8080/api/v1/projects/API152" limsid="API152">
+    <name>API-PROJECT-hVp</name>
+  </project>
+  <project uri="http://192.168.10.50:8080/api/v1/projects/API153" limsid="API153">
+    <name>API-PROJECT-yMD</name>
+  </project>
+  <project uri="http://192.168.10.50:8080/api/v1/projects/API154" limsid="API154">
+    <name>API-PROJECT-nWz</name>
+  </project>
+  <project uri="http://192.168.10.50:8080/api/v1/projects/API155" limsid="API155">
+    <name>API-PROJECT-RqX</name>
+  </project>
+  <project uri="http://192.168.10.50:8080/api/v1/projects/API156" limsid="API156">
+    <name>API-PROJECT-qYN</name>
+  </project>
+</prj:projects>
